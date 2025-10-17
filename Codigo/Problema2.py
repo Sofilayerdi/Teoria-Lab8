@@ -18,9 +18,7 @@ def iterations(n):
     return iters_i*iters_j 
 
 def measure_time(n):
-    """
-    Implementación exacta del código del Problema 2
-    """
+    
     if n <= 1:
         return 0.0
     
